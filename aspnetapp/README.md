@@ -8,7 +8,7 @@
 
 这个示例需要 [Docker 17.03](https://docs.docker.com/release-notes/docker-ce) 或以上的 [Docker 客户端](https://www.docker.com/products/docker)。使用 [Windows 容器](http://aka.ms/windowscontainers)，你需要最新的 Windows 10 或者 Windows Server 2016。 以下指令假定你已有安装好的 [Git](https://git-scm.com/downloads) 客户端。
 
-## 获取
+## 获取示例
 
 最简单的方式来获得这个示例，是通过 Git 使用以下的指令来克隆这个仓库。 你也可以仅仅从 [.NET Core Docker samples](https://github.com/dotnet/dotnet-docker-samples/) 仓库下载它的 zip 压缩包（非常小）。
 
@@ -102,7 +102,7 @@ dotnet published/aspnetapp.dll
 
 注意：`-c release` 参数会在 release 模式（默认是 debug 模式）构建这个应用程序。 查看 [dotnet run reference](https://docs.microsoft.com/dotnet/core/tools/dotnet-run) 来获得更多的命令行参数信息。
 
-## 本例中使用的 Docker 镜像 
+## 本例使用的 Docker 镜像
 
 本例中使用了以下 Docker 镜像
 
