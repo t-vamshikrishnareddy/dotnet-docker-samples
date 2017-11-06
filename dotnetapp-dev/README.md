@@ -54,7 +54,6 @@ dotnet published\dotnetapp.dll
 dotnet published/dotnetapp.dll
 ```
 
-
 注意：`-c release` 参数会在 release 模式（默认是 debug 模式）构建这个应用程序。 查看 [dotnet run reference](https://docs.microsoft.com/dotnet/core/tools/dotnet-run) 来获得更多的命令行参数信息。
 
 ## 本例使用的 Docker 镜像
